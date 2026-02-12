@@ -60,7 +60,7 @@ uv tool install specify-cli --force --from git+https://github.com/github/spec-ki
 
 - If you need more information how spec kit is built and how it works please use following link: https://github.com/github/spec-kit
 
-## Step 3: You will be asked to provide a project name: 
+### Step 3: You will be asked to provide a project name: 
 
 ```bash
 HxG_Demo_SchedullingApp
@@ -105,6 +105,7 @@ Goal: Produce a practical blueprint for a new app that lets a user schedule/disp
 HxG_PrincipleReviewer.agent.md
 ```
 2.b) Copy the code from https://github.com/amrikhasler/Hexagon-TechDays26-Github-Copilot-Lab-Microsoft/blob/main/PrincipleReviewer.agent.md to the newly created HxG_PrincipleReviewer.agent.md
+
 
 3.a) Create a new file with the name 
 ```bash
