@@ -60,7 +60,7 @@ uv tool install specify-cli --force --from git+https://github.com/github/spec-ki
 
 - If you need more information how spec kit is built and how it works please use following link: https://github.com/github/spec-kit
 
-### Step 3: You will be asked to provide a project name: 
+### Step 3: You will be asked to provide a project name
 
 ```bash
 HxG_Demo_SchedulingApp
