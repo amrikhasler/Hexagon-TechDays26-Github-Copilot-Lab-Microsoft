@@ -1,4 +1,4 @@
-# 🤔 What is Spec-Driven Development?
+# What is Spec-Driven Development?
 
 Spec-Driven Development **flips the script** on traditional software development. For decades, code has been king — specifications were just scaffolding we built and discarded once the "real work" of coding began. Spec-Driven Development changes this: **specifications become executable**, directly generating working implementations rather than just guiding them.
 
@@ -56,6 +56,9 @@ To upgrade Specify, see the [Upgrade Guide](./docs/upgrade.md) for detailed inst
 uv tool install specify-cli --force --from git+https://github.com/github/spec-kit.git
 ```
 
+**Note:**
+
+- If you need more information how spec kit is built and how it works please use following link: https://github.com/github/spec-kit
 
 ## Step 3: You will be asked to provide a project name: 
 
@@ -91,6 +94,12 @@ HxG_ideation_demoschedulingapp.agent.md
 ```
 1.b) Copy the code from https://github.com/amrikhasler/Hexagon-TechDays26-Github-Copilot-Lab-Microsoft/blob/main/ideation_demoschedulingapp.agent.md to the newly created HxG_ideation_demoschedulingapp.agent.md
 
+1.c) Alternative (not recommended due to longer reasoning time): If you have access to a researcher agent e.g. M365 Copilot Reasercher run the following prompt and copy the outcome to HxG_ideation_demoschedulingapp.agent.md:
+```bash
+Role: You are a product + technical researcher tasked with defining an MVP design and architecture for a lightweight “work assignment & scheduling” application.
+Goal: Produce a practical blueprint for a new app that lets a user schedule/dispatch work to other users. The app must be super simple, it can be based on blazor. For demo purposes it should run locally and should leverage local memory or storage if needed: scheduling “requirements,” assigning the “best resource” based on availability/skills, and a visual “schedule board” experience.
+```
+
 2.a) Create a new file with the name
 ```bash
 HxG_PrincipleReviewer.agent.md
@@ -104,8 +113,7 @@ HxG_SecurityOperations.agent.md
 3.b) Copy the code from https://github.com/amrikhasler/Hexagon-TechDays26-Github-Copilot-Lab-Microsoft/blob/main/SecurityOperations.agent.md to the newly created HxG_PrincipleReviewer.agent.md
 
 
-
-## Step 3:  Establish project principles
+## Step 8:  Establish project principles
 
 Launch your AI assistant in the project directory. The `/speckit.*` commands are available in the assistant.
 
@@ -115,7 +123,102 @@ Use the **`/speckit.constitution`** command to create your project's governing p
 /speckit.constitution Fill in constitution leveraging ideation_demoschedulingapp.agent.md also create principles focused on code quality, testing standards, user experience consistency, and performance requirements
 ```
 
-**Note::**
+**Note:**
 
+- please check and follow the steps Github Copilot is executing and allow to execute proposed commands or prompts
 - you can either use **`/speckit.constitution`** to leverage agent or select in the Github Copilot prompt window the right agent under "set agent"
-- here we also leverage the ideation_demoschedulingapp.agent which is considering the research content done via M365 Copilot Researcher 
+
+```bash
+Fill in constitution leveraging ideation_demoschedulingapp.agent.md also create principles focused on code quality, testing standards, user experience consistency, and performance requirements
+```
+  
+- here we also leverage the ideation_demoschedulingapp.agent which is considering the research content done via M365 Copilot Researcher
+
+
+## Step 9: Create the specifications
+
+Use the **`/speckit.specify`** command to describe what you want to build. Focus on the what and why, not the tech stack.
+
+```bash
+/speckit.specify Create specification for a simple scheduling app running local on port 8080 using local memory or storage but having a state of the art front end and backend (if needed) considering using blazor for the application.
+```
+
+**Note:**
+
+- please check and follow the steps Github Copilot is executing and allow to execute proposed commands or prompts
+- you can either use **`/speckit.specify`** to leverage agent or select in the Github Copilot prompt window the right agent under "set agent"
+
+```bash
+Create specification for a simple scheduling app running local on port 8080 using local memory or storage but having a state of the art front end and backend (if needed) considering using blazor for the application.
+```
+
+
+## Step 10: Create a technical implementation plan
+
+Use the **`/speckit.plan`** command to provide your tech stack and architecture choices.
+
+```bash
+/speckit.plan create a technical implementation plan for the application using blazor
+```
+
+**Note:**
+
+- please check and follow the steps Github Copilot is executing and allow to execute proposed commands or prompts
+- you can either use **`/speckit.plan`** to leverage agent or select in the Github Copilot prompt window the right agent under "set agent"
+
+```bash
+create a technical implementation plan for the application using blazor
+```
+
+
+## Step 11: Break down into tasks
+
+Use **`/speckit.tasks`** to create an actionable task list from your implementation plan.
+
+```bash
+/speckit.tasks create an actionable task list from your implementation plan.
+```
+
+**Note:**
+
+- please check and follow the steps Github Copilot is executing and allow to execute proposed commands or prompts
+- you can either use **`/speckit.tasks`** to leverage agent or select in the Github Copilot prompt window the right agent under "set agent"
+
+```bash
+create an actionable task list from your implementation plan.
+```
+
+
+## Step 12: Check project consistency 
+
+Use **`/speckit.analyze`** to check the entire project regarding concisteny
+
+```bash
+/speckit.analyze Run a project analysis for consistency
+```
+
+**Note:**
+
+- please check and follow the steps Github Copilot is executing and allow to execute proposed commands or prompts
+- you can either use **`/speckit.analyze`** to leverage agent or select in the Github Copilot prompt window the right agent under "set agent"
+
+```bash
+Run a project analysis for consistency
+```
+
+## Step 13: Execute implementation
+
+Use **`/speckit.implement`** to execute all tasks and build your feature according to the plan.
+
+```bash
+/speckit.implement execute all tasks and build your feature according to the plan. Remain basic and demo purposed. do not over complexify and make the app running local using local storage
+```
+**Note:**
+
+- please check and follow the steps Github Copilot is executing and allow to execute proposed commands or prompts
+- you can either use **`/speckit.implement`** to leverage agent or select in the Github Copilot prompt window the right agent under "set agent"
+
+```bash
+execute all tasks and build your feature according to the plan. Remain basic and demo purposed. do not over complexify and make the app running local using local storage
+```
+
