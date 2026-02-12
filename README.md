@@ -222,3 +222,61 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 execute all tasks and build your feature according to the plan. Remain basic and demo purposed. do not over complexify and make the app running local using local storage
 ```
 
+## Step 14: 
+
+Use **`/HxG_PrincipleReviewer`** to review the built application regarding code architecture, error handling patterns, API design, etc. 
+
+```bash
+/HxG_PrincipleReviewer Review the scheduling app we built today. Focus on:
+- Code architecture and organization
+- Error handling patterns
+- API design best practices
+- React component structure
+- Any potential bugs or issues
+```
+
+**Note:**
+
+- please check and follow the steps Github Copilot is executing and allow to execute proposed commands or prompts
+- you can either use **`/HxG_PrincipleReviewer`** to leverage agent or select in the Github Copilot prompt window the right agent under "set agent"
+
+```bash
+Review the scheduling app we built today. Focus on:
+- Code architecture and organization
+- Error handling patterns
+- API design best practices
+- React component structure
+- Any potential bugs or issues
+```
+- This agent can be used for any future project or context. For each project you can individually adjust code and focus areas to match priorities
+
+
+## Step 15: 
+
+Use **`/HxG_SecurityOperations`** to check and review the built application regarding vulnerabilities, injections risks, authentication and authorization issues, exposure etc. 
+
+```bash
+/HxG_SecurityOperations Review the scheduling app we built today. Focus on:
+- Input validation vulnerabilities
+- Storage injection or injection risks
+- XSS vulnerabilities in the frontend
+- Authentication/authorization issues
+- Sensitive data exposure
+- OWASP Top 10 concerns
+```
+
+**Note:**
+
+- please check and follow the steps Github Copilot is executing and allow to execute proposed commands or prompts
+- you can either use **`/HxG_SecurityOperations`** to leverage agent or select in the Github Copilot prompt window the right agent under "set agent"
+
+```bash
+Review the scheduling app we built today. Focus on:
+- Input validation vulnerabilities
+- Storage injection or injection risks
+- XSS vulnerabilities in the frontend
+- Authentication/authorization issues
+- Sensitive data exposure
+- OWASP Top 10 concerns
+```
+- This agent can be used for any future project or context. For each project you can individually adjust code and focus areas to match priorities
