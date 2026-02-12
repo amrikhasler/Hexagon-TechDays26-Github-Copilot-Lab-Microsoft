@@ -63,13 +63,13 @@ uv tool install specify-cli --force --from git+https://github.com/github/spec-ki
 ### Step 3: You will be asked to provide a project name: 
 
 ```bash
-HxG_Demo_SchedullingApp
+HxG_Demo_SchedulingApp
 ```
 
 
 ### Step 4: Open "focus terminal" in the Github Copilot chat. 
 
-You will find it directly in the chat where you executed the prompt in step 2, after the sub step called "planned project naming as "HxG_Demo_SchedullingApp". Choose your AI assistant using your keyboard to navigate to --> copilot (Github Copilot) and press enter
+You will find it directly in the chat where you executed the prompt in step 2, after the sub step called "planned project naming as "HxG_Demo_SchedulingApp". Choose your AI assistant using your keyboard to navigate to --> copilot (Github Copilot) and press enter
 
 
 ### Step 5: Remain in the focus terminal 
@@ -79,7 +79,7 @@ You now get asked to choose script type. Navigate with your keyboard to --> ps (
 
 ### Step 6: Now go to file in VS Code 
 
-open folder e.g. "C:\Users\FirstName_LastName\source\Dev\Projects\...\HxG_Demo_SchedullingApp" to set the right path
+open folder e.g. "C:\Users\FirstName_LastName\source\Dev\Projects\...\HxG_Demo_SchedulingApp" to set the right path
 
 
 ### Step 7: Custom Agents
@@ -102,9 +102,9 @@ Goal: Produce a practical blueprint for a new app that lets a user schedule/disp
 
 2.a) Create a new file with the name
 ```bash
-HxG_PrincipleReviewer.agent.md
+HxG_PrincipalReviewer.agent.md
 ```
-2.b) Copy the code from https://github.com/amrikhasler/Hexagon-TechDays26-Github-Copilot-Lab-Microsoft/blob/main/PrincipleReviewer.agent.md to the newly created HxG_PrincipleReviewer.agent.md
+2.b) Copy the code from https://github.com/amrikhasler/Hexagon-TechDays26-Github-Copilot-Lab-Microsoft/blob/main/PrincipalReviewer.agent.md to the newly created HxG_PrincipleReviewer.agent.md
 
 
 3.a) Create a new file with the name 
@@ -225,10 +225,10 @@ execute all tasks and build your feature according to the plan. Remain basic and
 
 ### Step 14: Review the application code 
 
-Use **`/HxG_PrincipleReviewer`** to review the built application regarding code architecture, error handling patterns, API design, etc. 
+Use **`/HxG_PrincipalReviewer`** to review the built application regarding code architecture, error handling patterns, API design, etc. 
 
 ```bash
-/HxG_PrincipleReviewer Review the scheduling app we built today. Focus on:
+HxG_PrincipalReviewer Review the scheduling app we built today. Focus on:
 - Code architecture and organization
 - Error handling patterns
 - API design best practices
@@ -239,7 +239,7 @@ Use **`/HxG_PrincipleReviewer`** to review the built application regarding code 
 **Note:**
 
 - please check and follow the steps Github Copilot is executing and allow to execute proposed commands or prompts
-- you can either use **`/HxG_PrincipleReviewer`** to leverage agent or select in the Github Copilot prompt window the right agent under "set agent"
+- you can either use **`/HxG_PrincipalReviewer`** to leverage agent or select in the Github Copilot prompt window the right agent under "set agent"
 
 ```bash
 Review the scheduling app we built today. Focus on:
