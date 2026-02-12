@@ -92,7 +92,7 @@ In this step we create custom agents.
 ```bash
 HxG_ideation_demoschedulingapp.agent.md
 ```
-1.b) Copy the code from https://github.com/amrikhasler/Hexagon-TechDays26-Github-Copilot-Lab-Microsoft/blob/main/ideation_demoschedulingapp.agent.md to the newly created HxG_ideation_demoschedulingapp.agent.md
+1.b) Copy the code from https://github.com/amrikhasler/Hexagon-TechDays26-Github-Copilot-Lab-Microsoft/blob/main/ideation_demoschedulingapp.agent.md?plain=1 to the newly created HxG_ideation_demoschedulingapp.agent.md
 
 1.c) Alternative (not recommended due to longer reasoning time): If you have access to a researcher agent e.g. M365 Copilot Reasercher run the following prompt and copy the outcome to HxG_ideation_demoschedulingapp.agent.md:
 ```bash
@@ -104,14 +104,14 @@ Goal: Produce a practical blueprint for a new app that lets a user schedule/disp
 ```bash
 HxG_PrincipalReviewer.agent.md
 ```
-2.b) Copy the code from https://github.com/amrikhasler/Hexagon-TechDays26-Github-Copilot-Lab-Microsoft/blob/main/PrincipalReviewer.agent.md to the newly created HxG_PrincipleReviewer.agent.md
+2.b) Copy the code from https://github.com/amrikhasler/Hexagon-TechDays26-Github-Copilot-Lab-Microsoft/blob/main/PrincipalReviewer.agent.md?plain=1 to the newly created HxG_PrincipalReviewer.agent.md
 
 
 3.a) Create a new file with the name 
 ```bash
 HxG_SecurityOperations.agent.md
 ```
-3.b) Copy the code from https://github.com/amrikhasler/Hexagon-TechDays26-Github-Copilot-Lab-Microsoft/blob/main/SecurityOperations.agent.md to the newly created HxG_PrincipleReviewer.agent.md
+3.b) Copy the code from https://github.com/amrikhasler/Hexagon-TechDays26-Github-Copilot-Lab-Microsoft/blob/main/SecurityOperations.agent.md?plain=1 to the newly created HxG_SecurityOperations.agent.md
 
 
 ### Step 8:  Establish project principles
