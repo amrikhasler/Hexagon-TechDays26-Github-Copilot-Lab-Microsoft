@@ -222,7 +222,7 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 execute all tasks and build your feature according to the plan. Remain basic and demo purposed. do not over complexify and make the app running local using local storage
 ```
 
-## Step 14: 
+## Step 14: Review the application code 
 
 Use **`/HxG_PrincipleReviewer`** to review the built application regarding code architecture, error handling patterns, API design, etc. 
 
@@ -251,7 +251,7 @@ Review the scheduling app we built today. Focus on:
 - This agent can be used for any future project or context. For each project you can individually adjust code and focus areas to match priorities
 
 
-## Step 15: 
+## Step 15: SecOps Check for the application 
 
 Use **`/HxG_SecurityOperations`** to check and review the built application regarding vulnerabilities, injections risks, authentication and authorization issues, exposure etc. 
 
