@@ -85,11 +85,23 @@ In this step we create custom agents.
 
 ### Option A) Create new .md file in the .github\agents folder
 
-1.a) Create a file with the name ideation_demoschedulingapp.agent.md
-1.b) Copy the content to the newly created ideation_demoschedulingapp.agent.md
+1.a) Create a new file with the name
+```bash
+HxG_ideation_demoschedulingapp.agent.md
+```
+1.b) Copy the code from https://github.com/amrikhasler/Hexagon-TechDays26-Github-Copilot-Lab-Microsoft/blob/main/ideation_demoschedulingapp.agent.md to the newly created HxG_ideation_demoschedulingapp.agent.md
 
+2.a) Create a new file with the name
+```bash
+HxG_PrincipleReviewer.agent.md
+```
+2.b) Copy the code from https://github.com/amrikhasler/Hexagon-TechDays26-Github-Copilot-Lab-Microsoft/blob/main/PrincipleReviewer.agent.md to the newly created HxG_PrincipleReviewer.agent.md
 
-
+3.a) Create a new file with the name 
+```bash
+HxG_SecurityOperations.agent.md
+```
+3.b) Copy the code from https://github.com/amrikhasler/Hexagon-TechDays26-Github-Copilot-Lab-Microsoft/blob/main/SecurityOperations.agent.md to the newly created HxG_PrincipleReviewer.agent.md
 
 
 
