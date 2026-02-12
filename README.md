@@ -4,7 +4,7 @@ Spec-Driven Development **flips the script** on traditional software development
 
 Let's start with the Lab!!!
 
-## Step 1: Astral’s uv installer script - install uv (not required if you already have it installed) 
+### Step 1: Astral’s uv installer script - install uv (not required if you already have it installed) 
 
 Make sure you have the right path where you want to create your project later (typically: C:\Users\FirstName_LastName\source\Dev\Projects\...)
 
@@ -15,11 +15,11 @@ irm https://astral.sh/uv/install.ps1 | iex
 ```
 
 
-## Step 2: Install Specify CLI
+### Step 2: Install Specify CLI
 
 Choose your preferred installation: 
 
-### Option A) One-time Usage (Recommended for this Lab)
+#### Option A) One-time Usage (Recommended for this Lab)
 
 Run directly without installing. Copy the prompt bellow to github copilot:
 
@@ -27,7 +27,7 @@ Run directly without installing. Copy the prompt bellow to github copilot:
 uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME>
 ```
 
-### Option B) Persistent Installation 
+#### Option B) Persistent Installation 
 
 Install once and use everywhere:
 
@@ -67,26 +67,26 @@ HxG_Demo_SchedullingApp
 ```
 
 
-## Step 4: Open "focus terminal" in the Github Copilot chat. 
+### Step 4: Open "focus terminal" in the Github Copilot chat. 
 
 You will find it directly in the chat where you executed the prompt in step 2, after the sub step called "planned project naming as "HxG_Demo_SchedullingApp". Choose your AI assistant using your keyboard to navigate to --> copilot (Github Copilot) and press enter
 
 
-## Step 5: Remain in the focus terminal 
+### Step 5: Remain in the focus terminal 
 
 You now get asked to choose script type. Navigate with your keyboard to --> ps (pwerShell) and press enter
 
 
-## Step 6: Now go to file in VS Code 
+### Step 6: Now go to file in VS Code 
 
 open folder e.g. "C:\Users\FirstName_LastName\source\Dev\Projects\...\HxG_Demo_SchedullingApp" to set the right path
 
 
-## Step 7: Custom Agents
+### Step 7: Custom Agents
 
 In this step we create custom agents.
 
-### Option A) Create new .md file in the .github\agents folder
+#### Create new .md file in the .github\agents folder
 
 1.a) Create a new file with the name
 ```bash
@@ -113,7 +113,7 @@ HxG_SecurityOperations.agent.md
 3.b) Copy the code from https://github.com/amrikhasler/Hexagon-TechDays26-Github-Copilot-Lab-Microsoft/blob/main/SecurityOperations.agent.md to the newly created HxG_PrincipleReviewer.agent.md
 
 
-## Step 8:  Establish project principles
+### Step 8:  Establish project principles
 
 Launch your AI assistant in the project directory. The `/speckit.*` commands are available in the assistant.
 
@@ -135,7 +135,7 @@ Fill in constitution leveraging ideation_demoschedulingapp.agent.md also create 
 - here we also leverage the ideation_demoschedulingapp.agent which is considering the research content done via M365 Copilot Researcher
 
 
-## Step 9: Create the specifications
+### Step 9: Create the specifications
 
 Use the **`/speckit.specify`** command to describe what you want to build. Focus on the what and why, not the tech stack.
 
@@ -153,7 +153,7 @@ Create specification for a simple scheduling app running local on port 8080 usin
 ```
 
 
-## Step 10: Create a technical implementation plan
+### Step 10: Create a technical implementation plan
 
 Use the **`/speckit.plan`** command to provide your tech stack and architecture choices.
 
@@ -171,7 +171,7 @@ create a technical implementation plan for the application using blazor
 ```
 
 
-## Step 11: Break down into tasks
+### Step 11: Break down into tasks
 
 Use **`/speckit.tasks`** to create an actionable task list from your implementation plan.
 
@@ -189,7 +189,7 @@ create an actionable task list from your implementation plan.
 ```
 
 
-## Step 12: Check project consistency 
+### Step 12: Check project consistency 
 
 Use **`/speckit.analyze`** to check the entire project regarding concisteny
 
@@ -206,7 +206,7 @@ Use **`/speckit.analyze`** to check the entire project regarding concisteny
 Run a project analysis for consistency
 ```
 
-## Step 13: Execute implementation
+### Step 13: Execute implementation
 
 Use **`/speckit.implement`** to execute all tasks and build your feature according to the plan.
 
@@ -222,7 +222,7 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 execute all tasks and build your feature according to the plan. Remain basic and demo purposed. do not over complexify and make the app running local using local storage
 ```
 
-## Step 14: Review the application code 
+### Step 14: Review the application code 
 
 Use **`/HxG_PrincipleReviewer`** to review the built application regarding code architecture, error handling patterns, API design, etc. 
 
@@ -251,7 +251,7 @@ Review the scheduling app we built today. Focus on:
 - This agent can be used for any future project or context. For each project you can individually adjust code and focus areas to match priorities
 
 
-## Step 15: SecOps Check for the application 
+### Step 15: SecOps Check for the application 
 
 Use **`/HxG_SecurityOperations`** to check and review the built application regarding vulnerabilities, injections risks, authentication and authorization issues, exposure etc. 
 
