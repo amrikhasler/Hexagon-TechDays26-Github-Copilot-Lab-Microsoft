@@ -8,7 +8,7 @@ Let's start with the Lab!!!
 
 Make sure you have the right path where you want to create your project later (typically: C:\Users\FirstName_LastName\source\Dev\Projects\...)
 
-Copy the following command to the github copilot chat (allow proposed steps and actions by Github Copilot):
+Copy the following prompt to the github copilot chat (allow proposed steps and actions by Github Copilot):
 
 ```bash
 irm https://astral.sh/uv/install.ps1 | iex
@@ -19,7 +19,7 @@ Choose your preferred installation:
 
 ### Option A) One-time Usage (Recommended for this Lab)
 
-Run directly without installing:
+Run directly without installing. Copy the prompt bellow to github copilot:
 
 ```bash
 uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME>
@@ -33,7 +33,7 @@ Install once and use everywhere:
 uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
 ```
 
-Then use the tool directly:
+Then use the tool directly. Copy the prompt bellow to github copilot:
 
 ```bash
 # Create new project
@@ -53,7 +53,23 @@ To upgrade Specify, see the [Upgrade Guide](./docs/upgrade.md) for detailed inst
 ```bash
 uv tool install specify-cli --force --from git+https://github.com/github/spec-kit.git
 ```
+## Step 3: You will be asked to provide a project name: 
 
+```bash
+HxG_Demo_SchedullingApp
+```
+
+## Step 4: Open "focus terminal" in the Github Copilot chat. 
+
+You will find it directly in the chat where you executed the prompt in step 2, after the sub step called "planned project naming as "HxG_Demo_SchedullingApp". Choose your AI assistant using your keyboard to navigate to --> copilot (Github Copilot) and press enter
+
+## Step 5: Remain in the focus terminal 
+
+You now get asked to choose script type. Navigate with your keyboard to --> ps (pwerShell) and press enter
+
+## Step 6: Now go to file in VS Code 
+
+open folder e.g. "C:\Users\FirstName_LastName\source\Dev\Projects\...\HxG_Demo_SchedullingApp" to set the right path
 
 
 
