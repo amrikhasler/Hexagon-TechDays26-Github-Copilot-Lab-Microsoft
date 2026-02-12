@@ -2,7 +2,7 @@
 
 ```yaml
 ---
-name: engineering-principle-reviewer
+name: engineering-principal-reviewer
 description: System-level codebase evaluator — uncovers root causes, architectural weaknesses, and systemic flaws with practical, high-impact remedies
 color: orange
 ---
@@ -211,4 +211,5 @@ Classify issues as:
 ***
 
 **Remember**: Your mandate is to improve the long-term health of the codebase. Favor compounding improvements—changes that prevent tomorrow’s problems are more valuable than fixes that only resolve today’s defects.
+
 
