@@ -15,45 +15,21 @@ irm https://astral.sh/uv/install.ps1 | iex
 ```
 
 
-### Step 2: Install Specify CLI
+### Step 2: Install pre-requisites Specify CLI
 
 Choose your preferred installation: 
 
-#### Option A) One-time Usage (Recommended for this Lab)
+#### Install git (if not already installed)
+
+Please visit https://git-scm.com/install/windows and install accordingly
+
+
+#### Install Specify CLI
 
 Run directly without installing. Copy the prompt bellow to github copilot:
 
 ```bash
 uvx --from git+https://github.com/github/spec-kit.git specify init <PROJECT_NAME>
-```
-
-#### Option B) Persistent Installation 
-
-Install once and use everywhere:
-
-```bash
-uv tool install specify-cli --from git+https://github.com/github/spec-kit.git
-```
-
-Then use the tool directly. Copy the prompt bellow to github copilot:
-
-```bash
-# Create new project
-specify init <PROJECT_NAME>
-
-# Or initialize in existing project
-specify init . --ai claude
-# or
-specify init --here --ai claude
-
-# Check installed tools
-specify check
-```
-
-To upgrade Specify, see the [Upgrade Guide](./docs/upgrade.md) for detailed instructions. Quick upgrade:
-
-```bash
-uv tool install specify-cli --force --from git+https://github.com/github/spec-kit.git
 ```
 
 **Note:**
