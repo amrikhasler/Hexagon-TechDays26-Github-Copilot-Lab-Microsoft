@@ -189,7 +189,7 @@ Run a project analysis for consistency
 Use **`/speckit.implement`** to execute all tasks and build your feature according to the plan.
 
 ```bash
-/speckit.implement execute all tasks and build your feature according to the plan. Remain basic and demo purposed. do not over complexify and make the app running local using local storage
+/speckit.implement execute all tasks and build your feature according to the plan. Remain basic and demo purposed. do not over complexify, no authentication needed at this point and make the app running local using local storage
 ```
 **Note:**
 
@@ -197,7 +197,7 @@ Use **`/speckit.implement`** to execute all tasks and build your feature accordi
 - you can either use **`/speckit.implement`** to leverage agent or select in the Github Copilot prompt window the right agent under "set agent"
 
 ```bash
-execute all tasks and build your feature according to the plan. Remain basic and demo purposed. do not over complexify and make the app running local using local storage
+execute all tasks and build your feature according to the plan. Remain basic and demo purposed. do not over complexify, no authentication needed at this point and make the app running local using local storage
 ```
 
 ### Step 14: Review the application code 
