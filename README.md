@@ -178,6 +178,7 @@ Use **`/speckit.analyze`** to check the entire project regarding concisteny
 
 - please check and follow the steps Github Copilot is executing and allow to execute proposed commands or prompts
 - you can either use **`/speckit.analyze`** to leverage agent or select in the Github Copilot prompt window the right agent under "set agent"
+- ACTION: You will get findings but for the demo purpose just ignore them and continue with step 13
 
 ```bash
 Run a project analysis for consistency
