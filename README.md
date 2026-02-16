@@ -15,16 +15,16 @@ irm https://astral.sh/uv/install.ps1 | iex
 ```
 
 
-### Step 2: Install pre-requisites Specify CLI
+### Step 2: Install pre-requisites
 
 Choose your preferred installation: 
 
-#### Install git (if not already installed)
+#### 2.1) Install git (if not already installed)
 
 Please visit https://git-scm.com/install/windows and install accordingly
 
 
-#### Install Specify CLI
+#### 2.2) Install Specify CLI
 
 Run directly without installing. Copy the prompt bellow to github copilot:
 
